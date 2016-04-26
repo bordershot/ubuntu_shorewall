@@ -1,0 +1,9 @@
+DEPENDENCIES
+  ubuntu_shorewall
+    path: .
+    metadata: true
+
+GRAPH
+  shorewall_reloaded (0.3.2)
+  ubuntu_shorewall (0.1.8)
+    shorewall_reloaded (~> 0.3.2)
